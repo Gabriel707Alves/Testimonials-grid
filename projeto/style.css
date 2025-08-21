@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--font_family);
 }
 
 :root{
@@ -32,8 +33,6 @@
         "patrick_abrams"
         "kira_whittle"
     ;
-
-
 }
 
 #daniel_clifford{
