@@ -18,4 +18,7 @@
     --Grey_500: hsl(217, 19%, 35%);
     --Dark_blue: hsl(219, 29%, 14%);
     --Black: hsl(0, 0%, 7%);
+
+    /* fonte */
+    --font_family: "Barlow Semi Condensed", sans-serif;
 }
