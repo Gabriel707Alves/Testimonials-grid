@@ -54,3 +54,18 @@
 #kira_whittle{
     grid-area: "kira_whittle";
 }
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img{
+    border-radius: 50%;
+}
+
+.profile span{
+    font-weight: 700;
+    color: var(--White);
+}
