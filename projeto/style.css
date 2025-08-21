@@ -22,3 +22,36 @@
     /* fonte */
     --font_family: "Barlow Semi Condensed", sans-serif;
 }
+
+#container{
+    display: grid;
+    grid-template-areas: 
+        "daniel_clifford"
+        "jonathan_walters"
+        "jeanette_harmon"
+        "patrick_abrams"
+        "kira_whittle"
+    ;
+
+
+}
+
+#daniel_clifford{
+    grid-area: "daniel_clifford";
+}
+
+#jonathan_walters{
+    grid-area: "jonathan_walters";
+}
+
+#jeanette_harmon{
+    grid-area: "jeanette_harmon";
+}
+
+#patrick_abrams{
+    grid-area: "patrick_abrams";
+}
+
+#kira_whittle{
+    grid-area: "kira_whittle";
+}
