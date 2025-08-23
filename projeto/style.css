@@ -81,6 +81,8 @@ body{
     line-height: 1.4;
 }
 
+
+/* Jeanette Harmon */
 #jeanette_harmon{
     grid-area: "jeanette_harmon";
     background-color: var(--White);
@@ -99,10 +101,14 @@ body{
     line-height: 1.4;
 }
 
+
+/* Patrick Abrams */
 #patrick_abrams{
     grid-area: "patrick_abrams";
 }
 
+
+/* Kira Whittle */
 #kira_whittle{
     grid-area: "kira_whittle";
 }
@@ -130,6 +136,7 @@ body{
 }
 
 
+/* estilos do perfil na cor preta */
 .profile_black{
     display: flex;
     align-items: center;
