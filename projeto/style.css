@@ -33,7 +33,7 @@
         "patrick_abrams"
         "kira_whittle"
     ;
-    gap: 15px;
+    gap: 40px;
     padding: 20px;
 }
 
@@ -62,7 +62,6 @@
     background-color: var(--Grey_400);
     padding: 40px;
     border-radius: 15px;
-    margin: 20px 0px 0px 0px;
 }
 
 #jonathan_walters h2{
