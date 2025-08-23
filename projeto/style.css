@@ -60,6 +60,8 @@
     grid-area: "kira_whittle";
 }
 
+
+/* estilos do perfil na cor branca */
 .profile_white{
     display: flex;
     align-items: center;
@@ -79,3 +81,13 @@
     color: var(--White);
     font-size: 1.1em;
 }
+
+
+/* textos Daniel*/
+
+#daniel_clifford h2{
+    margin: 20px 0px;
+    color: var(--Purple_50);
+    line-height: 1.3;
+}
+
