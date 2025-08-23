@@ -83,6 +83,9 @@ body{
 
 #jeanette_harmon{
     grid-area: "jeanette_harmon";
+    background-color: var(--White);
+    border-radius: 15px;
+    padding: 40px;
 }
 
 #patrick_abrams{
