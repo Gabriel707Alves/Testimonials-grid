@@ -88,6 +88,17 @@ body{
     padding: 40px;
 }
 
+#jeanette_harmon h2{
+    color: var(--Grey_500);
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+#jeanette_harmon p{
+    color: var(--Grey_400);
+    line-height: 1.4;
+}
+
 #patrick_abrams{
     grid-area: "patrick_abrams";
 }
@@ -101,7 +112,7 @@ body{
 .profile_white{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     line-height: 1.4rem;
     color: var(--White);
 }
@@ -119,4 +130,22 @@ body{
 }
 
 
+.profile_black{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    line-height: 1.4rem;
+    color: var(--Black);
+}
 
+.profile_black img{
+    border-radius: 50%;
+    width: 15%;
+    border: 1px solid var(--Grey_200);
+}
+
+.profile_black span{
+    font-weight: 600;
+    color: var(--Black);
+    font-size: 1.1em;
+}
