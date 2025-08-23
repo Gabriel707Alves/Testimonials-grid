@@ -42,37 +42,37 @@ body{
 }
 
 /*Daniel Clifford*/
-#daniel_clifford{
+#daniel{
     grid-area: "daniel_clifford";
     background-color: var(--Purple_500);
-    padding: 40px;
+    padding: 35px;
     border-radius: 15px;
 }
 
-#daniel_clifford h2{
+#daniel h2{
     margin: 20px 0px;
     color: var(--Purple_50);
     line-height: 1.3;
 }
 
-#daniel_clifford img{
+#daniel img{
     border: 2px solid var(--Purple_300);
 }
 
-#daniel_clifford p {
+#daniel p {
     color: var(--Grey_200);
     line-height: 1.4;
 }
 
 /* jonathan walters */
-#jonathan_walters{
+#jonathan{
     grid-area: "jonathan_walters";
     background-color: var(--Grey_400);
-    padding: 40px;
+    padding: 35px;
     border-radius: 15px;
 }
 
-#jonathan_walters h2{
+#jonathan h2{
     color: var(--Grey_100);
     font-weight: 600;
     font-size: 22px;
@@ -80,69 +80,69 @@ body{
     line-height: 1.3;
 }
 
-#jonathan_walters p{
+#jonathan p{
     color: var(--Grey_200);
     line-height: 1.4;
 }
 
 
 /* Jeanette Harmon */
-#jeanette_harmon{
+#jeanette{
     grid-area: "jeanette_harmon";
     background-color: var(--White);
     border-radius: 15px;
-    padding: 40px;
+    padding: 35px;
 }
 
-#jeanette_harmon h2{
+#jeanette h2{
     color: var(--Grey_500);
     margin: 20px 0px;
     font-weight: 600;
 }
 
-#jeanette_harmon p{
+#jeanette p{
     color: var(--Grey_400);
     line-height: 1.4;
 }
 
 
 /* Patrick Abrams */
-#patrick_abrams{
+#patrick{
     grid-area: "patrick_abrams";
     background-color: var(--Dark_blue);
     border-radius: 15px;
-    padding: 40px;
+    padding: 35px;
 }
 
-#patrick_abrams h2{
+#patrick h2{
     margin: 20px 0px;
     color: var(--Grey_200);
     font-weight: 500;
 }
 
-#patrick_abrams img{
+#patrick img{
     border: 2px solid var(--Purple_500);
 }
 
-#patrick_abrams p{
+#patrick p{
     color: var(--Grey_200);
     line-height: 1.4;
 }
 
 /* Kira Whittle */
-#kira_whittle{
+#kira{
     grid-area: "kira_whittle";
     background-color: var(--White);
-    padding: 40px;
+    padding: 35px;
     border-radius: 15px;
 }
 
-#kira_whittle h2{
+#kira h2{
     margin: 20px 0px;
     color: var(--Grey_500);
 }
 
-#kira_whittle > p{
+#kira p{
     color: var(--Grey_500);
     line-height: 1.3;
     font-weight: 500;
@@ -189,4 +189,49 @@ body{
     font-weight: 600;
     color: var(--Black);
     font-size: 1.1em;
+}
+
+
+/* Responsividade Desktop */
+@media screen and (min-width: 1440px) {
+    #container{
+    width: 70%;
+    gap: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira"
+    ;
+}
+    
+    #daniel{
+        grid-area: daniel;
+    }
+
+    #daniel img{
+        width: 9%;
+    }
+
+    #jonathan{
+        grid-area: jonathan;
+    }
+
+    #kira{
+        grid-area: kira;
+    }
+
+    #patrick{
+        grid-area: patrick;
+    }
+
+    #patrick img{
+        width: 9%;
+    }
+
+    #jeanette{
+        grid-area: jeanette;
+    }
+   
 }
