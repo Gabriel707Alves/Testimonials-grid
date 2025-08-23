@@ -12,8 +12,8 @@
     --Purple_500: hsl(263, 55%, 52%);
 
     /* Cores neutras */
-    --Grey_100: hsl(214, 17%, 92%);
     --White: hsl(0, 0%, 100%);
+    --Grey_100: hsl(214, 17%, 92%);
     --Grey_200: hsl(0, 0%, 81%);
     --Grey_400: hsl(224, 10%, 45%);
     --Grey_500: hsl(217, 19%, 35%);
@@ -105,8 +105,21 @@ body{
 /* Patrick Abrams */
 #patrick_abrams{
     grid-area: "patrick_abrams";
+    background-color: var(--Dark_blue);
+    border-radius: 15px;
+    padding: 40px;
 }
 
+#patrick_abrams h2{
+    margin: 20px 0px;
+    color: var(--Grey_200);
+    font-weight: 500;
+}
+
+#patrick_abrams p{
+    color: var(--Grey_200);
+    line-height: 1.4;
+}
 
 /* Kira Whittle */
 #kira_whittle{
