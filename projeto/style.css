@@ -73,6 +73,11 @@
     line-height: 1.3;
 }
 
+#jonathan_walters p{
+    color: var(--Grey_200);
+    line-height: 1.4;
+}
+
 #jeanette_harmon{
     grid-area: "jeanette_harmon";
 }
