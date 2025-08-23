@@ -24,6 +24,10 @@
     --font_family: "Barlow Semi Condensed", sans-serif;
 }
 
+body{
+    background-color: var(--Grey_200);
+}
+
 #container{
     display: grid;
     grid-template-areas: 
