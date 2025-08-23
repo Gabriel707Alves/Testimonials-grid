@@ -33,10 +33,15 @@
         "patrick_abrams"
         "kira_whittle"
     ;
+    gap: 15px;
+    padding: 20px;
 }
 
 #daniel_clifford{
     grid-area: "daniel_clifford";
+    background-color: var(--Purple_500);
+    padding: 40px;
+    border-radius: 15px;
 }
 
 #jonathan_walters{
@@ -55,17 +60,22 @@
     grid-area: "kira_whittle";
 }
 
-.profile{
+.profile_white{
     display: flex;
     align-items: center;
-    gap: 10px;
-}
-
-.profile img{
-    border-radius: 50%;
-}
-
-.profile span{
-    font-weight: 700;
+    gap: 15px;
+    line-height: 1.4rem;
     color: var(--White);
+}
+
+.profile_white img{
+    border-radius: 50%;
+    width: 15%;
+    border: 1px solid var(--Grey_100);
+}
+
+.profile_white span{
+    font-weight: 600;
+    color: var(--White);
+    font-size: 1.1em;
 }
