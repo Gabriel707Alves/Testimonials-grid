@@ -229,8 +229,9 @@ body{
     #patrick img{
         width: 7%;
     }
+ 
 
-
+    
     /* Kira */
     #kira{
         grid-column: 4 / 5;
