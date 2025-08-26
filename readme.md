@@ -6,22 +6,18 @@ Projeto proposto pelo **Frontend Mentor**, com foco em **CSS Grid, Flexbox, resp
 ---
 
 ### 📸 Preview do Projeto
-*Design versão desktop
 ![preview](design/desktop-design.jpg)
-
-*Design versão mobile
 ![preview](design/mobile-design.jpg)
-
-🔗 [Veja o projeto online](ainda irei adicionar)
+🔗 [Veja o projeto online] (ainda irei adicionar)
 
 ## Layout Responsivo 
 O projeto foi desenvolvido para se adaptar a diferentes tamanhos de tela**
-Desktop: 1440px
-Mobile: 320px
+- Desktop: 1440px
+- Mobile: 320px
 
-## O que aprendi:
-
-- Aprendi a commitar melhor nos meus projetos, mas ainda preciso melhorar
+## 📘 O que aprendi
+- Melhorar meus commits nos projetos.  
+- Uso combinado de **Grid e Flexbox** para organizar layouts.
 
 
 ## 🔧 O que posso melhorar
