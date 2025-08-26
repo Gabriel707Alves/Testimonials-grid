@@ -7,7 +7,7 @@ Projeto proposto pelo **Frontend Mentor**, com foco em **CSS Grid, Flexbox, resp
 
 ### 📸 Preview do Projeto
 ![preview](design/desktop-design.jpg)
-🔗 [Veja o projeto online] (ainda irei adicionar)
+🔗 [Veja o projeto online] (https://testimonials-grid-inky.vercel.app)
 
 ---
 
@@ -35,6 +35,5 @@ O projeto foi desenvolvido para se adaptar a diferentes tamanhos de tela**
 - Melhorar a descrição dos commits.  
 - Técnicas de **Clean Code**.  
 - Documentação do projeto (**README.md**).
-- Utilizar css moderno para refatorar o projeto e deixar mais escalável, organizado e otimizado.
 
 ---
